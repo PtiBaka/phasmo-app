@@ -10,11 +10,11 @@
   display: inline-grid;
   grid-template-columns: repeat(3, auto);
   justify-content: space-evenly;
-  width: 65%;
-  min-width: 500px;
+  width: 100%;
+  user-select: none;
 }
 
-#entities_parent_p{
+#entities_parent_p {
   width: 65%;
   overflow-wrap: break-word;
   text-align: center;
@@ -61,4 +61,16 @@
 
 .transparent-2 {
   text-decoration: line-through;
+}
+
+@media screen and (max-width: 700px) {
+  .divEntity {
+    border: 1px black dashed;
+  }
+
+  #entities {
+    grid-template-columns: repeat(3, 33.33%);
+    width: 100%;
+    overflow-wrap: break-word;
+  }
 }
