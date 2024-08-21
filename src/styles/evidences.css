@@ -1,0 +1,41 @@
+#evidences {
+  border-top: 5px black solid;
+  border-bottom: 5px black solid;
+  display: inline-grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: space-evenly;
+  width: 65%;
+}
+
+
+.opaque-0,
+.opaque-1,
+.opaque-2 {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.opaque-1 {
+  border: 2px black solid;
+  border-radius: 20px;
+  padding: 2px;
+  font-size: 18px;
+}
+
+.opaque-2 {
+  text-decoration: line-through;
+}
+
+
+#ze_button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#ze_button button{
+  padding: 5px;
+  border: 2px black solid;
+  border-radius: 20px;
+}

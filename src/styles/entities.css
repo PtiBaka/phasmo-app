@@ -1,0 +1,63 @@
+#entities_parent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#entities {
+  display: inline-grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: space-evenly;
+  width: 65%;
+}
+
+#entities_parent_p{
+  width: 65%;
+  overflow-wrap: break-word;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: 1px black solid;
+  padding-bottom: 5px;
+}
+
+.opaque-0,
+.opaque-1,
+.opaque-2 {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.opaque-1 {
+  border: 2px black solid;
+  border-radius: 20px;
+  padding: 2px;
+  font-size: 18px;
+}
+
+.opaque-2 {
+  text-decoration: line-through;
+}
+
+.transparent-0,
+.transparent-1,
+.transparent-2 {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  opacity: 0.35;
+}
+
+.transparent-1 {
+  border: 2px black solid;
+  border-radius: 20px;
+  padding: 2px;
+  font-size: 18px;
+}
+
+.transparent-2 {
+  text-decoration: line-through;
+}
