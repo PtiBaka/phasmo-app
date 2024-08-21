@@ -19,7 +19,8 @@ const Evidences = ({
       ))}
 
       <div id="ze_button">
-        <button onClick={eliminateButton}>Barrer entités</button>
+        <button onClick={eliminateButton}>Barrer entités<br />(Mode cauchemar)
+        </button>
       </div>
     </div>
   );

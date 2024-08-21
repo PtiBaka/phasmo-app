@@ -11,6 +11,7 @@
   grid-template-columns: repeat(3, auto);
   justify-content: space-evenly;
   width: 65%;
+  min-width: 500px;
 }
 
 #entities_parent_p{
