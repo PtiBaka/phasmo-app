@@ -41,6 +41,8 @@
 
 .opaque-2 {
   text-decoration: line-through;
+  text-decoration-thickness: 3px;
+
 }
 
 .transparent-0,
@@ -72,5 +74,9 @@
     grid-template-columns: repeat(3, 33.33%);
     width: 100%;
     overflow-wrap: break-word;
+  }
+
+  .opaque-2 {
+    
   }
 }

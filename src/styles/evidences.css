@@ -25,6 +25,7 @@
 }
 
 .opaque-2 {
+  text-decoration-thickness: 3px;
   text-decoration: line-through;
 }
 
