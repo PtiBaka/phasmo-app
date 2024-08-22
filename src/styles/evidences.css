@@ -63,3 +63,9 @@
     width: 100%;
   }
 }
+
+@media (hover: none) and (pointer: coarse) {
+  .divEvidence p:hover {
+    transform: none;
+  }
+}

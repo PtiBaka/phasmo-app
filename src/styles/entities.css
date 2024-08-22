@@ -83,3 +83,9 @@
     overflow-wrap: break-word;
   }
 }
+
+@media (hover: none) and (pointer: coarse) {
+  .divEntity p:hover {
+    transform: none;
+  }
+}
