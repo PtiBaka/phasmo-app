@@ -65,6 +65,13 @@
   text-decoration: line-through;
 }
 
+.divEntity{
+  transition: transform 0.5s ease;
+}
+.divEntity:hover{
+  transform: translateY(-5px)
+}
+
 @media screen and (max-width: 700px) {
   .divEntity {
     border: 1px black dashed;

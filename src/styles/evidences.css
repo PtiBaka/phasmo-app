@@ -8,7 +8,6 @@
   user-select: none;
 }
 
-
 .opaque-0,
 .opaque-1,
 .opaque-2 {
@@ -29,19 +28,30 @@
   text-decoration: line-through;
 }
 
-
-#ze_button{
+#ze_button {
   display: flex;
-  justify-content: center;
   align-items: center;
+  transition: transform 0.5s ease;
 }
 
-#ze_button button{
+#ze_button:hover{
+  transform: translateY(-5px)
+}
+
+
+#ze_button button {
   padding: 5px;
   border: 2px black solid;
   border-radius: 20px;
+  padding: 5px;
 }
 
+.divEvidence {
+  transition: transform 0.5s ease;
+}
+.divEvidence:hover {
+  transform: translateY(-5px);
+}
 
 @media screen and (max-width: 700px) {
   .divEvidence {
