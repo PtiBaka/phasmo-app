@@ -65,10 +65,10 @@
   text-decoration: line-through;
 }
 
-.divEntity{
+.divEntity p{
   transition: transform 0.5s ease;
 }
-.divEntity:hover{
+.divEntity p:hover{
   transform: translateY(-5px)
 }
 

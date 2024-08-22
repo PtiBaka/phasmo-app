@@ -46,10 +46,10 @@
   padding: 5px;
 }
 
-.divEvidence {
+.divEvidence p{
   transition: transform 0.5s ease;
 }
-.divEvidence:hover {
+.divEvidence p:hover {
   transform: translateY(-5px);
 }
 
