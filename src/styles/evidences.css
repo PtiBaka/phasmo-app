@@ -46,6 +46,9 @@
   padding: 5px;
 }
 
+.divEvidence{
+  cursor: pointer;
+}
 .divEvidence p{
   transition: transform 0.5s ease;
 }

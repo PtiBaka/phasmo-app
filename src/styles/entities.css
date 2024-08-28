@@ -67,6 +67,7 @@
 
 .divEntity p{
   transition: transform 0.5s ease;
+  cursor: pointer;
 }
 .divEntity p:hover{
   transform: translateY(-5px)
